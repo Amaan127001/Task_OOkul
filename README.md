@@ -30,12 +30,15 @@ Follow these steps to set up and run the project locally:
    cd react-kml-map
 
 2. **Install Dependencies Ensure you have Node.js and npm installed, then run:**
+    ```bash
     npm install
 
 3. **Run the Application Start the development server with:**
+    ```bash
     npm start
 
 4. **Build for Production (Optional) To create a production build, run:**
+    ```bash
     npm run build
 
 ## Acknowledgements
