@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample KML File</name>
+    <!-- A simple placemark (point) -->
+    <Placemark>
+      <name>Sample Point</name>
+      <Point>
+        <coordinates>-122.0822035425683,37.42228990140251,0</coordinates>
+      </Point>
+    </Placemark>
+    <!-- A placemark with a line -->
+    <Placemark>
+      <name>Sample LineString</name>
+      <LineString>
+        <coordinates>
+          -122.0822035425683,37.42228990140251,0 
+          -122.0850000000000,37.42200000000000,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
